@@ -1,21 +1,21 @@
 # allot-server
 client->allot->server
 ### client
-####1.
+#### 1.
 >start client.exe
-####2.
+#### 2.
 >client.e -> EPL -> client.exe
 ### allot
-####1.
+#### 1.
 >start allot.exe
-####2.
+#### 2.
 >allot.e -> EPL -> allot.exe
 ### server
-####1.
+#### 1.
 >start server.exe
-####2.
+#### 2.
 >server.e -> EPL -> server.exe
-#Start
+# Start
 1. 部署 "server" 在您的服务器，可以选择是否和您的服务器程序端口相同，默认为6666
 > port:6666
 2. 部署 "allot" 在另一台服务器，添加ip-port指向 "server" ，allot的端口默认为6668
